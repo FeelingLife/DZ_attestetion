@@ -21,3 +21,5 @@ data = data.unstack(level=-1, fill_value = 0).astype(int)
 data.columns = data.columns.droplevel()
 data.columns.name = None
 print(data)
+
+# https://colab.research.google.com/drive/14_a5JU103-n_ncNtk8y9wYhu-c_aWQXP#scrollTo=q2eOosl2o5jL&line=20&uniqifier=1 - ссылка на colab.google
